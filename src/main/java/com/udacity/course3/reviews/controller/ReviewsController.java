@@ -19,6 +19,7 @@ public class ReviewsController {
 
     @Autowired
     ReviewRepository reviewRepository;
+    @Autowired
     ProductRepository productRepository;
 
     @RequestMapping(value = "/reviews/products/{productId}", method = RequestMethod.POST)

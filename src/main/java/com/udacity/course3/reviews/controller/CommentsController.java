@@ -19,6 +19,7 @@ public class CommentsController {
 
     @Autowired
     private CommentRepository commentRepository;
+    @Autowired
     private ReviewRepository reviewRepository;
 
     @RequestMapping(value = "/reviews/{reviewId}", method = RequestMethod.POST)
