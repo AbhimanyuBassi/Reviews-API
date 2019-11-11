@@ -1,4 +1,4 @@
-package com.udacity.course3.reviews.productRepository;
+package com.udacity.course3.reviews.repositories.MySQL.productRepository;
 
 
 import com.udacity.course3.reviews.entity.Product;

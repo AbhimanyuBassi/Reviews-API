@@ -1,9 +1,9 @@
 package com.udacity.course3.reviews.controller;
 
-import com.udacity.course3.reviews.CommentRepository.CommentRepository;
-import com.udacity.course3.reviews.ReviewRepository.ReviewRepository;
 import com.udacity.course3.reviews.entity.Comment;
 import com.udacity.course3.reviews.entity.Review;
+import com.udacity.course3.reviews.repositories.MySQL.CommentRepository.CommentRepository;
+import com.udacity.course3.reviews.repositories.MySQL.ReviewRepository.ReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
