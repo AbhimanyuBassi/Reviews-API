@@ -36,6 +36,7 @@ public class CommentsController {
             comment.setReviewId(review.get());
             commentRepository.save(comment);
             Optional<ReviewDoc> optionalMongoReview = mongoReviewRepository.findById(reviewId);
+
             if (optionalMongoReview.isPresent()) {
                 CommentDoc mongoComment = new CommentDoc();
                 mongoComment.setCommentId(comment.getCommentId());
